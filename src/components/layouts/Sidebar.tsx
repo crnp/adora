@@ -11,7 +11,7 @@ import { SidebarItem } from "@/components/layouts/SidebarItem";
 export const Sidebar = () => (
   <>
     <Disclosure as="nav">
-      <Disclosure.Button className="absolute top-4 right-4 inline-flex md:hidden items-center peer justify-center rounded-md p-2 text-gray-900 hover:text-white hover:bg-gray-900 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white group">
+      <Disclosure.Button className="absolute top-4 right-4 inline-flex md:hidden items-center peer justify-center rounded-md p-2 text-gray-200 hover:text-white hover:bg-[#F77FBE] focus:outline-none focus:ring-2 focus:ring-inset focus:ring-[#F77FBE] group">
         <GiHamburgerMenu
           className="block md:hidden h-6 w-6"
           aria-hidden="true"
