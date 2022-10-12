@@ -17,7 +17,7 @@ const Hair = () => {
         />
       }
     >
-      <div className="Hair h-screen px-6 py-12 md:py-0 flex justify-center items-start flex-col">
+      <div className="hair h-screen px-6 py-12 md:py-0 flex justify-center items-start flex-col">
         <h1 className="text-3xl text-center font-bold">Hair Treatments</h1>
         <Image
           src={image2}
