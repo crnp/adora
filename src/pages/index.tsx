@@ -32,42 +32,48 @@ const Home: NextPage = () => {
       <section className="gallery">
         <h1 className="text-3xl text-center font-bold mb-8">Treatments</h1>
         <div className="flex flex-row gap-8 md:gap-6 px-12 mb-8 justify-center items-center ">
-          <div className="flex justify-center items-center flex-col cursor-pointer group">
-            <Image
-              src={image2}
-              width={640}
-              height={427}
-              placeholder="blur"
-              className="group-hover:scale-105 transition ease-out duration-200"
-            />
-            <h3 className="text-lg text-center font-semibold text-gray-200 group-hover:text-white">
-              Facials
-            </h3>
-          </div>
-          <div className="flex justify-center items-center flex-col cursor-pointer group">
-            <Image
-              src={image3}
-              width={640}
-              height={427}
-              placeholder="blur"
-              className="group-hover:scale-105 transition ease-out duration-200"
-            />
-            <h3 className="text-lg text-center font-semibold text-gray-200 group-hover:text-white">
-              Nails
-            </h3>
-          </div>
-          <div className="flex justify-center items-center flex-col cursor-pointer group">
-            <Image
-              src={image1}
-              width={640}
-              height={427}
-              placeholder="blur"
-              className="group-hover:scale-105 transition ease-out duration-200"
-            />
-            <h3 className="text-lg text-center font-semibold text-gray-200 group-hover:text-white">
-              Hair
-            </h3>
-          </div>
+          <Link href="/facial">
+            <div className="flex justify-center items-center flex-col cursor-pointer group">
+              <Image
+                src={image2}
+                width={640}
+                height={427}
+                placeholder="blur"
+                className="group-hover:scale-105 transition ease-out duration-200"
+              />
+              <h3 className="text-lg text-center font-semibold text-gray-200 group-hover:text-white">
+                Facials
+              </h3>
+            </div>
+          </Link>
+          <Link href="/nails">
+            <div className="flex justify-center items-center flex-col cursor-pointer group">
+              <Image
+                src={image3}
+                width={640}
+                height={427}
+                placeholder="blur"
+                className="group-hover:scale-105 transition ease-out duration-200"
+              />
+              <h3 className="text-lg text-center font-semibold text-gray-200 group-hover:text-white">
+                Nails
+              </h3>
+            </div>
+          </Link>
+          <Link href="/hair">
+            <div className="flex justify-center items-center flex-col cursor-pointer group">
+              <Image
+                src={image1}
+                width={640}
+                height={427}
+                placeholder="blur"
+                className="group-hover:scale-105 transition ease-out duration-200"
+              />
+              <h3 className="text-lg text-center font-semibold text-gray-200 group-hover:text-white">
+                Hair
+              </h3>
+            </div>
+          </Link>
         </div>
       </section>
     </Main>
